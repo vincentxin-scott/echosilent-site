@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="white"/>
+  <circle cx="512" cy="280" r="220" fill="none" stroke="black" stroke-width="1.5" opacity="0.15"/>
+    <path d="M 468.71,475.26 A 200.00,200.00 0 1 1 555.29,475.26" fill="none" stroke="black" stroke-width="9" stroke-linecap="round" opacity="1.0"/>
+    <path d="M 395.33,396.67 A 165.00,165.00 0 1 1 628.67,396.67" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
+    <path d="M 383.97,257.43 A 130.00,130.00 0 0 1 640.03,257.43" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round" opacity="0.3"/>
+    <circle cx="512" cy="280" r="40" fill="black" opacity="0.92"/>
+    <circle cx="512" cy="280" r="52" fill="none" stroke="black" stroke-width="0.8" opacity="0.25"/>
+  
+    <text x="512" y="620" font-family="Helvetica Neue, Arial, sans-serif" fill="black" text-anchor="middle" letter-spacing="8">
+      <tspan font-weight="200" font-size="48" opacity="0.85">silent</tspan><tspan font-weight="600" font-size="48">echo</tspan>
+    </text>
+    <text x="512" y="670" font-family="Helvetica Neue, Arial, sans-serif" fill="black" text-anchor="middle" font-size="14" letter-spacing="12" opacity="0.4">silentecho.info</text>
+    
+</svg>
