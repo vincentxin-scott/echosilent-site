@@ -1,4 +1,14 @@
+# SilentEcho.info robots.txt
+# https://silentecho.info/
+
+# Allow all well-behaved search engine crawlers
 User-agent: *
 Allow: /
 
+# Disallow common admin/staging paths (defense in depth)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Reference to sitemap
 Sitemap: https://silentecho.info/sitemap-index.xml
