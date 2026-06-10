@@ -10,5 +10,30 @@ Disallow: /admin/
 Disallow: /.git/
 Disallow: /node_modules/
 
-# Reference to sitemap
+# Sitemap reference (all locales)
 Sitemap: https://silentecho.info/sitemap-index.xml
+
+# Allow major search engines explicitly with crawl-delay hints
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
