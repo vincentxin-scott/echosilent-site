@@ -5,6 +5,9 @@
 User-agent: *
 Allow: /
 
+# Disallow internal search result pages (no SEO value, duplicate content risk)
+Disallow: /search
+
 # Disallow common admin/staging paths (defense in depth)
 Disallow: /admin/
 Disallow: /.git/
