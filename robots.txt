@@ -13,6 +13,12 @@ Disallow: /admin/
 Disallow: /.git/
 Disallow: /node_modules/
 
+# Block legacy locale-prefixed paths (i18n removed; URLs no longer exist).
+# These were generated when we briefly enabled en-AE/en-SA locales.
+# Without this block, Googlebot keeps re-crawling them as 404s.
+Disallow: /ae/
+Disallow: /sa/
+
 # Sitemap reference (all locales)
 Sitemap: https://silentecho.info/sitemap-index.xml
 
